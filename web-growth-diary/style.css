@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #222;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+h1 {
+  color: #2563eb;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+a {
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  padding: 10px 18px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+a:hover {
+  background-color: #1d4ed8;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+nav {
+  margin-bottom: 30px;
+}
+
+nav a {
+  background-color: transparent;
+  color: #2563eb;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  background-color: #eff6ff;
+}
+.diary-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: left;
+}
+.work-card {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 30px 15px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .buttons a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+.profile {
+  max-width: 600px;
+  margin: 30px auto 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+}
+
+.profile h2 {
+  color: #2563eb;
+}
+.profile-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 14px;
+  color: #666;
+}
+body {
+  margin: 0;
+}
+
+nav {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.profile,
+.recent,
+.diary-card,
+.work-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  border-top: 1px solid #eee;
+}
